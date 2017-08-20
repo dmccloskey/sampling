@@ -8,7 +8,7 @@ from cobra.manipulation.modify import convert_to_irreversible
 import csv,json,sys
 
 # Dependencies
-from cobra_sampling.sampling_statistics import cobra_sampling_statistics
+from sampling.sampling_statistics import cobra_sampling_statistics
 
 from . import data_dir
 

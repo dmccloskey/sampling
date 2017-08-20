@@ -8,8 +8,8 @@ from cobra.manipulation.modify import convert_to_irreversible
 import csv,json,sys
 
 # Dependencies
-from cobra_sampling.optGpSampler_sampling import optGpSampler_sampling
-from cobra_sampling.matlab_sampling import matlab_sampling
+from sampling.optGpSampler_sampling import optGpSampler_sampling
+from sampling.matlab_sampling import matlab_sampling
 
 from . import data_dir
 
