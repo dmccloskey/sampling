@@ -6,15 +6,15 @@ sampling
 .. image:: https://img.shields.io/pypi/v/sampling.svg
         :target: https://pypi.python.org/pypi/sampling
 
-.. image:: https://img.shields.io/travis/Biosustain/sampling.svg
-        :target: https://travis-ci.org/Biosustain/sampling
+.. image:: https://img.shields.io/travis/dmccloskey/sampling.svg
+        :target: https://travis-ci.org/dmccloskey/sampling
 
 .. image:: https://readthedocs.org/projects/sampling/badge/?version=latest
         :target: https://sampling.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/Biosustain/sampling/shield.svg
-     :target: https://pyup.io/repos/github/Biosustain/sampling/
+.. image:: https://pyup.io/repos/github/dmccloskey/sampling/shield.svg
+     :target: https://pyup.io/repos/github/dmccloskey/sampling/
      :alt: Updates
 
 COBRA package for sampling
