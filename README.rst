@@ -23,28 +23,12 @@ COBRA package for sampling
 * Free software: Apache Software License 2.0
 * Documentation: https://sampling.readthedocs.io.
 
-
-ToDo
-====
-
-Before doing much else you should go through the following steps to fully enable
-all the testing goodies of this repository:
-
-* Create a `GitHub <https://github.com/>`_ account and import your local
-  repository.
-* Create an account at `Read the Docs <https://readthedocs.org>`_ import your
-  `GitHub repository`_ there and install the webhook on it.
-* Create a `Travis-CI <https://travis-ci.org/>`_ account and enable the
-  `GitHub repository`_.
-* Create an `AppVeyor <https://ci.appveyor.com/>`_ account and enable the
-  `GitHub repository`_.
-
-.. _`GitHub repository`: https://github.com/Biosustain/sampling
-
 Features
 ========
 
-* TODO
+* sampling using gpSampler (MATLAB)
+* sampling using optGpSampler (Linux, python2.7)
+* common sampling routines (e.g., calculating the mixed fraction, removing no flux reactions, etc.)
 
 Credits
 =======
