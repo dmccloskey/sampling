@@ -8,24 +8,24 @@ CbModel	cobra_utilities/sampling_dependencies.py	/^    from optGpSampler.cbModel
 CbModelReducer	cobra_utilities/sampling_dependencies.py	/^    from optGpSampler.cbModelReducer import CbModelReducer$/;"	kind:namespace	line:44
 CbModelSampler	cobra_utilities/sampling_dependencies.py	/^    from optGpSampler.cbModelSampler import CbModelSampler$/;"	kind:namespace	line:43
 Formula	cobra_utilities/sampling_dependencies.py	/^    from molmass.molmass import Formula$/;"	kind:namespace	line:25
-ST_MTIME	cobra_utilities/matlab_sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:16
-ST_MTIME	cobra_utilities/sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:29
-ST_MTIME	cobra_utilities/sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:60
-ST_MTIME	cobra_utilities/sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:86
-ST_SIZE	cobra_utilities/matlab_sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:16
-ST_SIZE	cobra_utilities/sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:29
-ST_SIZE	cobra_utilities/sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:60
-ST_SIZE	cobra_utilities/sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:86
-__init__	cobra_utilities/sampling.py	/^    def __init__(self,data_dir_I=None,model_I=None,loops_I=[]):#,sampler_I=None):$/;"	kind:member	line:8
-__init__	cobra_utilities/sampling_statistics.py	/^    def __init__(self,data_dir_I=None,model_I=None,loops_I=[]):#,sampler_I=None):$/;"	kind:member	line:15
-__init__	cobra_utilities/sampling_statistics.py	/^    def __init__(self,data_dir_I=None,model_I=None,loops_I=[],sample_ids_I=[],samplers_I=None,control_I=False):$/;"	kind:member	line:78
-__init__	tests/test_sampling.py	/^    def __init__(self):$/;"	kind:member	line:19
+ST_MTIME	cobra_utilities/matlab_sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:21
+ST_MTIME	cobra_utilities/sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:32
+ST_MTIME	cobra_utilities/sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:64
+ST_MTIME	cobra_utilities/sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:94
+ST_SIZE	cobra_utilities/matlab_sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:21
+ST_SIZE	cobra_utilities/sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:32
+ST_SIZE	cobra_utilities/sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:64
+ST_SIZE	cobra_utilities/sampling.py	/^        from stat import ST_SIZE, ST_MTIME$/;"	kind:namespace	line:94
+__init__	cobra_utilities/sampling.py	/^    def __init__(self,data_dir_I=None,model_I=None,loops_I=[]):$/;"	kind:member	line:8
+__init__	cobra_utilities/sampling_statistics.py	/^    def __init__(self,data_dir_I=None,model_I=None,loops_I=[],sample_ids_I=[],samplers_I=None,control_I=False):$/;"	kind:member	line:63
+__init__	tests/test_sampling.py	/^    def __init__(self):$/;"	kind:member	line:18
+__init__	tests/test_sampling_statistics.py	/^    def __init__(self):$/;"	kind:member	line:17
 __init__.py	cobra_utilities/__init__.py	1;"	kind:file	line:1
 __init__.py	tests/__init__.py	1;"	kind:file	line:1
-_remove_points_notInSolutionSpace	cobra_utilities/sampling.py	/^    def _remove_points_notInSolutionSpace(self,points_I,lower_bound_I,upper_bound_I,min_points_I):$/;"	kind:member	line:307
+_remove_points_notInSolutionSpace	cobra_utilities/sampling.py	/^    def _remove_points_notInSolutionSpace(self,points_I,lower_bound_I,upper_bound_I,min_points_I):$/;"	kind:member	line:329
 absolute_import	tests/__init__.py	/^from __future__ import absolute_import$/;"	kind:namespace	line:11
 abspath	tests/__init__.py	/^from os.path import abspath, dirname, join$/;"	kind:namespace	line:13
-add_data	cobra_utilities/sampling.py	/^    def add_data(self,data_dir_I=None,model_I=None,loops_I=[],points_I={}):$/;"	kind:member	line:443
+add_data	cobra_utilities/sampling.py	/^    def add_data(self,data_dir_I=None,model_I=None,loops_I=[],points_I={}):$/;"	kind:member	line:471
 author	setup.py	/^    author = 'Douglas McCloskey',$/;"	kind:variable	line:6
 bootstrap	cobra_utilities/sampling_statisticsSampledPoints.py	/^    def bootstrap(self,data, num_samples=100000, statistic=np.mean, alpha=0.05):$/;"	kind:member	line:15
 calculate_ave_var	cobra_utilities/sampling_statisticsDescriptive.py	/^    def calculate_ave_var(self,data_I,confidence_I = 0.95):$/;"	kind:member	line:43
@@ -37,11 +37,11 @@ calculate_difference	cobra_utilities/sampling_statisticsDescriptive.py	/^    def
 calculate_foldChange	cobra_utilities/sampling_statisticsDescriptive.py	/^    def calculate_foldChange(self,data_1_I,data_2_I,type_I = 'relative', scale_values_I = None,scale_fold_change_I = None):$/;"	kind:member	line:174
 calculate_interquartiles	cobra_utilities/sampling_statisticsDescriptive.py	/^    def calculate_interquartiles(self,data_I,iq_range_I = [25,75]):$/;"	kind:member	line:162
 calculate_mixFraction	cobra_utilities/optGpSampler_sampling.py	/^    def calculate_mixFraction(self):$/;"	kind:member	line:59
-calculate_pairWiseTest	cobra_utilities/sampling_statistics.py	/^    def calculate_pairWiseTest(self,$/;"	kind:member	line:99
-calculate_pairWiseTest_metabolites	cobra_utilities/sampling_statistics.py	/^    def calculate_pairWiseTest_metabolites(self,$/;"	kind:member	line:156
-calculate_pairWiseTest_subsystems	cobra_utilities/sampling_statistics.py	/^    def calculate_pairWiseTest_subsystems(self,$/;"	kind:member	line:212
+calculate_pairWiseTest	cobra_utilities/sampling_statistics.py	/^    def calculate_pairWiseTest(self,$/;"	kind:member	line:84
+calculate_pairWiseTest_metabolites	cobra_utilities/sampling_statistics.py	/^    def calculate_pairWiseTest_metabolites(self,$/;"	kind:member	line:141
+calculate_pairWiseTest_subsystems	cobra_utilities/sampling_statistics.py	/^    def calculate_pairWiseTest_subsystems(self,$/;"	kind:member	line:197
 calculate_pvalue_permutation	cobra_utilities/sampling_statisticsSampledPoints.py	/^    def calculate_pvalue_permutation(self,data_1_I,data_2_I,n_permutations_I=10,n_resamples_I=10):    $/;"	kind:member	line:40
-check_loops	cobra_utilities/sampling.py	/^    def check_loops(self,cobra_model_I=None,solver_I = 'glpk'):$/;"	kind:member	line:150
+check_loops	cobra_utilities/sampling.py	/^    def check_loops(self,cobra_model_I=None,solver_I = 'glpk'):$/;"	kind:member	line:177
 cobra_model	tests/data/test_sampling.py	/^cobra_model = load_json_model("test_sampling.json");$/;"	kind:variable	line:3
 cobra_sampling	cobra_utilities/matlab_sampling.py	/^    from .sampling import cobra_sampling$/;"	kind:namespace	line:2
 cobra_sampling	cobra_utilities/matlab_sampling.py	/^    from sampling.sampling import cobra_sampling$/;"	kind:namespace	line:6
@@ -50,58 +50,64 @@ cobra_sampling	cobra_utilities/optGpSampler_sampling.py	/^    from sampling.samp
 cobra_sampling	cobra_utilities/sampling.py	/^class cobra_sampling():$/;"	kind:class	line:6
 cobra_sampling	cobra_utilities/sampling_statistics.py	/^    from .sampling import cobra_sampling$/;"	kind:namespace	line:2
 cobra_sampling	cobra_utilities/sampling_statistics.py	/^    from sampling.sampling import cobra_sampling$/;"	kind:namespace	line:8
-cobra_sampling_n	cobra_utilities/sampling_statistics.py	/^class cobra_sampling_n():$/;"	kind:class	line:76
+cobra_sampling_n	cobra_utilities/sampling_statistics.py	/^class cobra_sampling_n():$/;"	kind:class	line:61
 cobra_sampling_statistics	cobra_utilities/sampling_statistics.py	/^class cobra_sampling_statistics(cobra_sampling):$/;"	kind:class	line:13
+cobra_sampling_statistics	tests/test_sampling_statistics.py	/^from cobra_utilities.sampling_statistics import cobra_sampling_statistics$/;"	kind:namespace	line:11
 convert_ci2StDev	cobra_utilities/sampling_statisticsDescriptive.py	/^    def convert_ci2StDev(self,lb_I,ub_I,n_I,alpha_I,distribution_I='lognorm',dist_params_I={},raise_I = False):$/;"	kind:member	line:124
 convert_cv2StDev	cobra_utilities/sampling_statisticsDescriptive.py	/^    def convert_cv2StDev(self,data_ave_I,data_cv_I):$/;"	kind:member	line:106
-convert_points2MetabolitePoints	cobra_utilities/sampling.py	/^    def convert_points2MetabolitePoints(self):$/;"	kind:member	line:340
-convert_points2MetabolitePoints	cobra_utilities/sampling_statistics.py	/^    def convert_points2MetabolitePoints(self):$/;"	kind:member	line:287
-convert_points2SubsystemPoints	cobra_utilities/sampling.py	/^    def convert_points2SubsystemPoints(self):$/;"	kind:member	line:355
-convert_points2SubsystemPoints	cobra_utilities/sampling_statistics.py	/^    def convert_points2SubsystemPoints(self):$/;"	kind:member	line:296
-convert_to_irreversible	tests/test_sampling.py	/^from cobra.manipulation.modify import convert_to_irreversible$/;"	kind:namespace	line:6
+convert_points2MetabolitePoints	cobra_utilities/sampling.py	/^    def convert_points2MetabolitePoints(self):$/;"	kind:member	line:364
+convert_points2MetabolitePoints	cobra_utilities/sampling_statistics.py	/^    def convert_points2MetabolitePoints(self):$/;"	kind:member	line:272
+convert_points2SubsystemPoints	cobra_utilities/sampling.py	/^    def convert_points2SubsystemPoints(self):$/;"	kind:member	line:380
+convert_points2SubsystemPoints	cobra_utilities/sampling_statistics.py	/^    def convert_points2SubsystemPoints(self):$/;"	kind:member	line:281
+convert_to_irreversible	tests/test_sampling.py	/^from cobra.manipulation.modify import convert_to_irreversible$/;"	kind:namespace	line:5
+convert_to_irreversible	tests/test_sampling_statistics.py	/^from cobra.manipulation.modify import convert_to_irreversible$/;"	kind:namespace	line:5
 copy	cobra_utilities/sampling_dependencies.py	/^from copy import copy$/;"	kind:namespace	line:5
 create_cobra_model_from_sbml_file	cobra_utilities/sampling_dependencies.py	/^    from cobra.io.sbml import create_cobra_model_from_sbml_file$/;"	kind:namespace	line:33
 csv	cobra_utilities/sampling_dependencies.py	/^import operator, json, csv$/;"	kind:namespace	line:4
-csv	tests/test_sampling.py	/^import csv,json,sys$/;"	kind:namespace	line:9
+csv	tests/test_sampling.py	/^import csv,json,sys$/;"	kind:namespace	line:8
+csv	tests/test_sampling_statistics.py	/^import csv,json,sys$/;"	kind:namespace	line:8
 data_dir	tests/__init__.py	/^data_dir = join(sampling_directory, "tests\/data", "")$/;"	kind:variable	line:23
-data_dir	tests/test_sampling.py	/^from . import data_dir$/;"	kind:namespace	line:15
-datetime	cobra_utilities/matlab_sampling.py	/^        from datetime import datetime$/;"	kind:namespace	line:15
-datetime	cobra_utilities/sampling.py	/^        from datetime import datetime$/;"	kind:namespace	line:28
-datetime	cobra_utilities/sampling.py	/^        from datetime import datetime$/;"	kind:namespace	line:59
-datetime	cobra_utilities/sampling.py	/^        from datetime import datetime$/;"	kind:namespace	line:85
+data_dir	tests/test_sampling.py	/^from . import data_dir$/;"	kind:namespace	line:14
+data_dir	tests/test_sampling_statistics.py	/^from . import data_dir$/;"	kind:namespace	line:13
+datetime	cobra_utilities/matlab_sampling.py	/^        from datetime import datetime$/;"	kind:namespace	line:20
+datetime	cobra_utilities/sampling.py	/^        from datetime import datetime$/;"	kind:namespace	line:31
+datetime	cobra_utilities/sampling.py	/^        from datetime import datetime$/;"	kind:namespace	line:63
+datetime	cobra_utilities/sampling.py	/^        from datetime import datetime$/;"	kind:namespace	line:93
 description	setup.py	/^    description = 'Constraint-based biochemical modeling convenience classes and methods',$/;"	kind:variable	line:7
-descriptive_statistics	cobra_utilities/sampling_statistics.py	/^    def descriptive_statistics(self,points_I='flux'):$/;"	kind:member	line:32
+descriptive_statistics	cobra_utilities/sampling_statistics.py	/^    def descriptive_statistics(self,points_I='flux'):$/;"	kind:member	line:16
 dirname	tests/__init__.py	/^from os.path import abspath, dirname, join$/;"	kind:namespace	line:13
 exit	cobra_utilities/sampling_dependencies.py	/^from sys import exit$/;"	kind:namespace	line:2
 exp	cobra_utilities/sampling_dependencies.py	/^from math import log, sqrt, exp$/;"	kind:namespace	line:3
-export_points_json	cobra_utilities/sampling.py	/^    def export_points_json(self,filename):$/;"	kind:member	line:109
-export_points_numpy	cobra_utilities/sampling.py	/^    def export_points_numpy(self,filename):$/;"	kind:member	line:105
-export_sampling_matlab	cobra_utilities/matlab_sampling.py	/^    def export_sampling_matlab(self,cobra_model,fraction_optimal = None,$/;"	kind:member	line:66
+export_points_json	cobra_utilities/sampling.py	/^    def export_points_json(self,filename):$/;"	kind:member	line:121
+export_points_numpy	cobra_utilities/sampling.py	/^    def export_points_numpy(self,filename):$/;"	kind:member	line:113
+export_sampling_matlab	cobra_utilities/matlab_sampling.py	/^    def export_sampling_matlab(self,cobra_model,fraction_optimal = None,$/;"	kind:member	line:71
 export_sampling_optGpSampler	cobra_utilities/optGpSampler_sampling.py	/^    def export_sampling_optGpSampler(self,$/;"	kind:member	line:72
-export_warmup_json	cobra_utilities/sampling.py	/^    def export_warmup_json(self,filename):$/;"	kind:member	line:113
-find_loops	cobra_utilities/sampling.py	/^    def find_loops(self,data_fva='loops_fva.json'):$/;"	kind:member	line:235
+export_warmup_json	cobra_utilities/sampling.py	/^    def export_warmup_json(self,filename):$/;"	kind:member	line:126
+find_loops	cobra_utilities/sampling.py	/^    def find_loops(self,data_fva='loops_fva.json'):$/;"	kind:member	line:247
 flux_variability_analysis	cobra_utilities/sampling_dependencies.py	/^    from cobra.flux_analysis import flux_variability_analysis, single_deletion$/;"	kind:namespace	line:35
-generate_samples	cobra_utilities/optGpSampler_sampling.py	/^    def generate_samples(self,$/;"	kind:member	line:116
-get_points	cobra_utilities/sampling_statistics.py	/^    def get_points(self,data_points_I=[],remove_loops_I=True,remove_no_flux_I=True,normalize_I=True,remove_points_I=[]):$/;"	kind:member	line:267
+generate_samples	cobra_utilities/optGpSampler_sampling.py	/^    def generate_samples(self,$/;"	kind:member	line:130
+get_points	cobra_utilities/sampling_statistics.py	/^    def get_points(self,data_points_I=[],remove_loops_I=True,remove_no_flux_I=True,normalize_I=True,remove_points_I=[]):$/;"	kind:member	line:252
 get_points_json	cobra_utilities/sampling.py	/^    def get_points_json(self,json_data=None):$/;"	kind:member	line:54
 get_points_matlab	cobra_utilities/matlab_sampling.py	/^    def get_points_matlab(self,matlab_data=None,sampler_model_name='sampler_out'):$/;"	kind:member	line:10
-get_points_numpy	cobra_utilities/sampling.py	/^    def get_points_numpy(self,numpy_data,model_sbml=None):$/;"	kind:member	line:23
-get_warmup_json	cobra_utilities/sampling.py	/^    def get_warmup_json(self,json_data=None):$/;"	kind:member	line:80
+get_points_numpy	cobra_utilities/sampling.py	/^    def get_points_numpy(self,numpy_data):$/;"	kind:member	line:22
+get_warmup_json	cobra_utilities/sampling.py	/^    def get_warmup_json(self,json_data=None):$/;"	kind:member	line:84
 h5py	cobra_utilities/sampling_dependencies.py	/^    import h5py$/;"	kind:namespace	line:8
 histogram	cobra_utilities/sampling_dependencies.py	/^    from numpy import histogram, mean, std, loadtxt, savetxt$/;"	kind:namespace	line:14
 io	cobra_utilities/sampling_dependencies.py	/^    import scipy.io$/;"	kind:namespace	line:12
 isnan	cobra_utilities/optGpSampler_sampling.py	/^        from numpy import min, isnan, median, outer, ones$/;"	kind:namespace	line:27
 join	tests/__init__.py	/^from os.path import abspath, dirname, join$/;"	kind:namespace	line:13
 json	cobra_utilities/sampling_dependencies.py	/^import operator, json, csv$/;"	kind:namespace	line:4
-json	tests/test_sampling.py	/^import csv,json,sys$/;"	kind:namespace	line:9
+json	tests/test_sampling.py	/^import csv,json,sys$/;"	kind:namespace	line:8
+json	tests/test_sampling_statistics.py	/^import csv,json,sys$/;"	kind:namespace	line:8
 license	setup.py	/^    license = 'MIT',$/;"	kind:variable	line:8
 load_json_model	cobra_utilities/sampling_dependencies.py	/^    from cobra.io.json import load_json_model, save_json_model$/;"	kind:namespace	line:34
-load_json_model	tests/test_sampling.py	/^from cobra.io.json import load_json_model$/;"	kind:namespace	line:5
+load_json_model	tests/test_sampling.py	/^from cobra.io.json import load_json_model$/;"	kind:namespace	line:4
+load_json_model	tests/test_sampling_statistics.py	/^from cobra.io.json import load_json_model$/;"	kind:namespace	line:4
 load_matlab_model	cobra_utilities/sampling_dependencies.py	/^    from cobra.io.mat import load_matlab_model,save_matlab_model$/;"	kind:namespace	line:30
 loadtxt	cobra_utilities/sampling_dependencies.py	/^    from numpy import histogram, mean, std, loadtxt, savetxt$/;"	kind:namespace	line:14
 log	cobra_utilities/sampling_dependencies.py	/^from math import log, sqrt, exp$/;"	kind:namespace	line:3
 matlab_sampling	cobra_utilities/matlab_sampling.py	/^class matlab_sampling(cobra_sampling):$/;"	kind:class	line:8
-matlab_sampling	tests/test_sampling.py	/^from cobra_utilities.matlab_sampling import matlab_sampling$/;"	kind:namespace	line:13
+matlab_sampling	tests/test_sampling.py	/^from cobra_utilities.matlab_sampling import matlab_sampling$/;"	kind:namespace	line:12
 matlab_sampling.py	cobra_utilities/matlab_sampling.py	1;"	kind:file	line:1
 matplotlib	cobra_utilities/sampling_dependencies.py	/^    import matplotlib.pyplot as plt$/;"	kind:namespace	line:20
 mean	cobra_utilities/sampling_dependencies.py	/^    from numpy import histogram, mean, std, loadtxt, savetxt$/;"	kind:namespace	line:14
@@ -109,47 +115,46 @@ median	cobra_utilities/optGpSampler_sampling.py	/^        from numpy import min,
 min	cobra_utilities/optGpSampler_sampling.py	/^        from numpy import min, isnan, median, outer, ones$/;"	kind:namespace	line:27
 mix_fraction	cobra_utilities/optGpSampler_sampling.py	/^    def mix_fraction(self, sample1, sample2, **kwargs):$/;"	kind:member	line:10
 mpl	cobra_utilities/sampling_dependencies.py	/^    import matplotlib as mpl$/;"	kind:namespace	line:19
-n	cobra_utilities/optGpSampler_sampling.py	/^        script += 'from cobra_utilities.optGpSampler_sampling import optGpSampler_sampling\\n';$/;"	kind:namespace	line:101
+n	cobra_utilities/optGpSampler_sampling.py	/^        script += 'from cobra_utilities.optGpSampler_sampling import optGpSampler_sampling\\n';$/;"	kind:namespace	line:115
 name	setup.py	/^    name = 'cobra_utilities',$/;"	kind:variable	line:4
-normalize_points2CarbonInput	cobra_utilities/sampling.py	/^    def normalize_points2CarbonInput(self):$/;"	kind:member	line:386
-normalize_points2Input	cobra_utilities/sampling.py	/^    def normalize_points2Input(self):$/;"	kind:member	line:420
-normalize_points2Total	cobra_utilities/sampling.py	/^    def normalize_points2Total(self):$/;"	kind:member	line:371
+normalize_points2CarbonInput	cobra_utilities/sampling.py	/^    def normalize_points2CarbonInput(self):$/;"	kind:member	line:413
+normalize_points2Input	cobra_utilities/sampling.py	/^    def normalize_points2Input(self):$/;"	kind:member	line:448
+normalize_points2Total	cobra_utilities/sampling.py	/^    def normalize_points2Total(self):$/;"	kind:member	line:397
 np	cobra_utilities/sampling_dependencies.py	/^    import numpy as np$/;"	kind:namespace	line:13
-np	tests/test_sampling.py	/^import numpy as np$/;"	kind:namespace	line:2
 npr	cobra_utilities/sampling_statisticsSampledPoints.py	/^        import numpy.random as npr$/;"	kind:namespace	line:110
 npr	cobra_utilities/sampling_statisticsSampledPoints.py	/^        import numpy.random as npr$/;"	kind:namespace	line:146
 numpy	cobra_utilities/sampling_statisticsSampledPoints.py	/^        import numpy.random as npr$/;"	kind:namespace	line:110
 numpy	cobra_utilities/sampling_statisticsSampledPoints.py	/^        import numpy.random as npr$/;"	kind:namespace	line:146
 ones	cobra_utilities/optGpSampler_sampling.py	/^        from numpy import min, isnan, median, outer, ones$/;"	kind:namespace	line:27
 operator	cobra_utilities/sampling_dependencies.py	/^import operator, json, csv$/;"	kind:namespace	line:4
-optGpSampler_sampling	cobra_utilities/optGpSampler_sampling.py	/^        script += 'from cobra_utilities.optGpSampler_sampling import optGpSampler_sampling\\n';$/;"	kind:namespace	line:101
+optGpSampler_sampling	cobra_utilities/optGpSampler_sampling.py	/^        script += 'from cobra_utilities.optGpSampler_sampling import optGpSampler_sampling\\n';$/;"	kind:namespace	line:115
 optGpSampler_sampling	cobra_utilities/optGpSampler_sampling.py	/^class optGpSampler_sampling(cobra_sampling):$/;"	kind:class	line:9
 optGpSampler_sampling	tests/data/test_sampling.py	/^from cobra_utilities.optGpSampler_sampling import optGpSampler_sampling$/;"	kind:namespace	line:2
-optGpSampler_sampling	tests/test_sampling.py	/^from cobra_utilities.optGpSampler_sampling import optGpSampler_sampling$/;"	kind:namespace	line:12
+optGpSampler_sampling	tests/test_sampling.py	/^from cobra_utilities.optGpSampler_sampling import optGpSampler_sampling$/;"	kind:namespace	line:11
 optGpSampler_sampling.py	cobra_utilities/optGpSampler_sampling.py	1;"	kind:file	line:1
 optimize_minimal_flux	cobra_utilities/sampling_dependencies.py	/^    from cobra.flux_analysis.parsimonious import optimize_minimal_flux$/;"	kind:namespace	line:36
-os	cobra_utilities/matlab_sampling.py	/^        import os, time$/;"	kind:namespace	line:14
-os	cobra_utilities/sampling.py	/^        import os, time$/;"	kind:namespace	line:27
-os	cobra_utilities/sampling.py	/^        import os, time$/;"	kind:namespace	line:58
-os	cobra_utilities/sampling.py	/^        import os, time$/;"	kind:namespace	line:84
+os	cobra_utilities/matlab_sampling.py	/^        import os, time$/;"	kind:namespace	line:19
+os	cobra_utilities/sampling.py	/^        import os, time$/;"	kind:namespace	line:30
+os	cobra_utilities/sampling.py	/^        import os, time$/;"	kind:namespace	line:62
+os	cobra_utilities/sampling.py	/^        import os, time$/;"	kind:namespace	line:92
 outer	cobra_utilities/optGpSampler_sampling.py	/^        from numpy import min, isnan, median, outer, ones$/;"	kind:namespace	line:27
 packages	setup.py	/^    packages=['cobra_utilities'],$/;"	kind:variable	line:9
 pd	cobra_utilities/sampling_dependencies.py	/^    import pandas as pd$/;"	kind:namespace	line:15
 permutation_resampling	cobra_utilities/sampling_statisticsSampledPoints.py	/^    def permutation_resampling(self,case, control, num_samples=50, statistic=np.mean):$/;"	kind:member	line:24
-plot_points_boxAndWhiskers	cobra_utilities/sampling.py	/^    def plot_points_boxAndWhiskers(self,reaction_lst=[]):$/;"	kind:member	line:132
-plot_points_histogram	cobra_utilities/sampling.py	/^    def plot_points_histogram(self,reaction_lst=[]):$/;"	kind:member	line:118
+plot_points_boxAndWhiskers	cobra_utilities/sampling.py	/^    def plot_points_boxAndWhiskers(self,reaction_lst=[]):$/;"	kind:member	line:155
+plot_points_histogram	cobra_utilities/sampling.py	/^    def plot_points_histogram(self,reaction_lst=[]):$/;"	kind:member	line:135
 plt	cobra_utilities/sampling_dependencies.py	/^    import matplotlib.pyplot as plt$/;"	kind:namespace	line:20
 pytest	tests/__init__.py	/^    import pytest$/;"	kind:namespace	line:16
 pytest	tests/__init__.py	/^    pytest = None$/;"	kind:variable	line:19
 pytest	tests/test_sampling.py	/^import pytest$/;"	kind:namespace	line:1
+pytest	tests/test_sampling_statistics.py	/^import pytest$/;"	kind:namespace	line:1
 pytest_benchmark	tests/__init__.py	/^    import pytest_benchmark$/;"	kind:namespace	line:17
-remove_data	cobra_utilities/sampling.py	/^    def remove_data(self):$/;"	kind:member	line:450
-remove_loopsFromPoints	cobra_utilities/sampling.py	/^    def remove_loopsFromPoints(self):$/;"	kind:member	line:246
-remove_noFluxReactionsFromPoints	cobra_utilities/sampling.py	/^    def remove_noFluxReactionsFromPoints(self):$/;"	kind:member	line:257
-remove_points	cobra_utilities/sampling.py	/^    def remove_points(self,rxn_ids_I=[]):$/;"	kind:member	line:271
-remove_points_notInBounds	cobra_utilities/sampling.py	/^    def remove_points_notInBounds(self,points_I,lower_bound_I,upper_bound_I):$/;"	kind:member	line:330
-remove_points_notInSolutionSpace	cobra_utilities/sampling.py	/^    def remove_points_notInSolutionSpace(self,min_points_I=1000):$/;"	kind:member	line:296
-remove_points_notInSolutionSpace_v1	cobra_utilities/sampling.py	/^    def remove_points_notInSolutionSpace_v1(self):$/;"	kind:member	line:280
+remove_data	cobra_utilities/sampling.py	/^    def remove_data(self):$/;"	kind:member	line:478
+remove_loopsFromPoints	cobra_utilities/sampling.py	/^    def remove_loopsFromPoints(self):$/;"	kind:member	line:263
+remove_noFluxReactionsFromPoints	cobra_utilities/sampling.py	/^    def remove_noFluxReactionsFromPoints(self):$/;"	kind:member	line:275
+remove_points	cobra_utilities/sampling.py	/^    def remove_points(self,rxn_ids_I=[]):$/;"	kind:member	line:290
+remove_points_notInBounds	cobra_utilities/sampling.py	/^    def remove_points_notInBounds(self,points_I,lower_bound_I,upper_bound_I):$/;"	kind:member	line:353
+remove_points_notInSolutionSpace	cobra_utilities/sampling.py	/^    def remove_points_notInSolutionSpace(self,min_points_I=1000):$/;"	kind:member	line:316
 sample_pointsFromDistribution	cobra_utilities/sampling_statisticsSampledPoints.py	/^    def sample_pointsFromDistribution(self,n_points_I,distribution_I='lognormal',dist_params_I={},seed_I=1,raise_I = False):$/;"	kind:member	line:88
 sample_pointsFromPoints	cobra_utilities/sampling_statisticsSampledPoints.py	/^    def sample_pointsFromPoints(self,n_points_I,points_I,resample_params_I={},seed_I=1,raise_I = False):$/;"	kind:member	line:125
 sampling	tests/data/test_sampling.py	/^sampling = optGpSampler_sampling(data_dir_I = "\/");$/;"	kind:variable	line:4
@@ -173,25 +178,39 @@ scale_values	cobra_utilities/sampling_statisticsDescriptive.py	/^    def scale_v
 scipy	cobra_utilities/sampling_dependencies.py	/^    import scipy.io$/;"	kind:namespace	line:12
 setup	setup.py	/^from setuptools import setup$/;"	kind:namespace	line:1
 setup.py	setup.py	1;"	kind:file	line:1
-simulate_loops	cobra_utilities/sampling.py	/^    def simulate_loops(self,cobra_model_I=None,data_fva='loops_fva.json',solver_I='glpk'):$/;"	kind:member	line:176
-simulate_loops_sbml	cobra_utilities/sampling.py	/^    def simulate_loops_sbml(self,ijo1366_sbml,data_fva,solver_I='glpk'):$/;"	kind:member	line:208
+simulate_loops	cobra_utilities/sampling.py	/^    def simulate_loops(self,cobra_model_I=None,data_fva='loops_fva.json',solver_I='glpk'):$/;"	kind:member	line:208
 single_deletion	cobra_utilities/sampling_dependencies.py	/^    from cobra.flux_analysis import flux_variability_analysis, single_deletion$/;"	kind:namespace	line:35
 sqrt	cobra_utilities/sampling_dependencies.py	/^from math import log, sqrt, exp$/;"	kind:namespace	line:3
 stats	cobra_utilities/sampling_statisticsDescriptive.py	/^        from scipy import stats$/;"	kind:namespace	line:147
 std	cobra_utilities/sampling_dependencies.py	/^    from numpy import histogram, mean, std, loadtxt, savetxt$/;"	kind:namespace	line:14
-sys	tests/test_sampling.py	/^import csv,json,sys$/;"	kind:namespace	line:9
+sys	tests/test_sampling.py	/^import csv,json,sys$/;"	kind:namespace	line:8
+sys	tests/test_sampling_statistics.py	/^import csv,json,sys$/;"	kind:namespace	line:8
 test_all	tests/__init__.py	/^def test_all(args=None):$/;"	kind:function	line:25
-test_cobra_model	tests/test_sampling.py	/^    def test_cobra_model(self):$/;"	kind:member	line:22
-test_export_sampling_matlab	tests/test_sampling.py	/^    def test_export_sampling_matlab(self):$/;"	kind:member	line:87
-test_export_sampling_optGpSampler	tests/test_sampling.py	/^    def test_export_sampling_optGpSampler(self):$/;"	kind:member	line:29
+test_cobra_model	tests/test_sampling.py	/^    def test_cobra_model(self):$/;"	kind:member	line:21
+test_descriptive_statistics	tests/test_sampling_statistics.py	/^    def test_descriptive_statistics(self):$/;"	kind:member	line:20
+test_export_points_numpy	tests/test_sampling.py	/^    def test_export_points_numpy(self):$/;"	kind:member	line:121
+test_export_sampling_matlab	tests/test_sampling.py	/^    def test_export_sampling_matlab(self):$/;"	kind:member	line:74
+test_export_sampling_optGpSampler	tests/test_sampling.py	/^    def test_export_sampling_optGpSampler(self):$/;"	kind:member	line:28
+test_get_points_numpy	tests/test_sampling.py	/^    def test_get_points_numpy(self):$/;"	kind:member	line:117
+test_normalize_points2CarbonInput	tests/test_sampling.py	/^    def test_normalize_points2CarbonInput(self):$/;"	kind:member	line:153
+test_normalize_points2Input	tests/test_sampling.py	/^    def test_normalize_points2Input(self):$/;"	kind:member	line:157
+test_normalize_points2Total	tests/test_sampling.py	/^    def test_normalize_points2Total(self):$/;"	kind:member	line:149
+test_plot_points_boxAndWhiskers	tests/test_sampling.py	/^    def test_plot_points_boxAndWhiskers(self):$/;"	kind:member	line:129
+test_plot_points_histogram	tests/test_sampling.py	/^    def test_plot_points_histogram(self):$/;"	kind:member	line:125
+test_remove_noFluxReactionsFromPoints	tests/test_sampling.py	/^    def test_remove_noFluxReactionsFromPoints(self):$/;"	kind:member	line:133
+test_remove_points	tests/test_sampling.py	/^    def test_remove_points(self):$/;"	kind:member	line:137
+test_remove_points_notInBounds	tests/test_sampling.py	/^    def test_remove_points_notInBounds(self):$/;"	kind:member	line:145
+test_remove_points_notInSolutionSpace	tests/test_sampling.py	/^    def test_remove_points_notInSolutionSpace(self):$/;"	kind:member	line:141
+test_sampling	tests/test_sampling.py	/^class test_sampling():$/;"	kind:class	line:16
 test_sampling.py	tests/data/test_sampling.py	1;"	kind:file	line:1
 test_sampling.py	tests/test_sampling.py	1;"	kind:file	line:1
-test_sampling_matlab	tests/test_sampling.py	/^    def test_sampling_matlab(self):$/;"	kind:member	line:103
-test_sampling_optGpSampler	tests/test_sampling.py	/^    def test_sampling_optGpSampler(self):$/;"	kind:member	line:48
-test_thermodynamics	tests/test_sampling.py	/^class test_thermodynamics():$/;"	kind:class	line:17
-time	cobra_utilities/matlab_sampling.py	/^        import os, time$/;"	kind:namespace	line:14
-time	cobra_utilities/sampling.py	/^        import os, time$/;"	kind:namespace	line:27
-time	cobra_utilities/sampling.py	/^        import os, time$/;"	kind:namespace	line:58
-time	cobra_utilities/sampling.py	/^        import os, time$/;"	kind:namespace	line:84
+test_sampling_matlab	tests/test_sampling.py	/^    def test_sampling_matlab(self):$/;"	kind:member	line:90
+test_sampling_optGpSampler	tests/test_sampling.py	/^    def test_sampling_optGpSampler(self):$/;"	kind:member	line:47
+test_sampling_statistics	tests/test_sampling_statistics.py	/^class test_sampling_statistics():$/;"	kind:class	line:15
+test_sampling_statistics.py	tests/test_sampling_statistics.py	1;"	kind:file	line:1
+time	cobra_utilities/matlab_sampling.py	/^        import os, time$/;"	kind:namespace	line:19
+time	cobra_utilities/sampling.py	/^        import os, time$/;"	kind:namespace	line:30
+time	cobra_utilities/sampling.py	/^        import os, time$/;"	kind:namespace	line:62
+time	cobra_utilities/sampling.py	/^        import os, time$/;"	kind:namespace	line:92
 url	setup.py	/^    url='https:\/\/github.com\/dmccloskey\/cobra_utilities',$/;"	kind:variable	line:10
 version	setup.py	/^    version = '0.0.1',$/;"	kind:variable	line:5
