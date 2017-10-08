@@ -29,7 +29,7 @@ except Exception as e:
 try:
     from cobra.io.mat import load_matlab_model,save_matlab_model
     # from cobra.mlab import matlab_cobra_struct_to_python_cobra_object
-    # from cobra.util.solver import linear_reaction_coefficients
+    from cobra.util.solver import linear_reaction_coefficients
     from cobra.io.sbml import create_cobra_model_from_sbml_file
     from cobra.io.json import load_json_model, save_json_model
     from cobra.flux_analysis import flux_variability_analysis, single_deletion

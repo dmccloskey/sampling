@@ -177,7 +177,7 @@ class cobra_sampling():
     def check_loops(self,cobra_model_I=None,solver_I = 'glpk'):
         '''Check if the model contains loops
         
-        Args
+        Args:
             cobra_model_I (cobra.Model)
             solver_I (str): solver name
         '''
@@ -209,7 +209,7 @@ class cobra_sampling():
         '''Simulate FVA after closing exchange reactions and setting ATPM to 0
         reactions with flux will be involved in loops
         
-        Args
+        Args:
             cobra_model_I (cobra.Model)
             data_fva (str): name of the output file
             solver_I (str): solver name
