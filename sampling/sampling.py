@@ -445,7 +445,7 @@ class cobra_sampling():
                 points_normalized[k][i] = v[i]/total
         self.points = points_normalized;
 
-    def normalize_points2Input(self):
+    def normalize_points2Input(self, rxn_ids=[]):
         '''normalize each reaction for a given point to the total
         input flux for that point'''
         points = self.points;
@@ -455,7 +455,9 @@ class cobra_sampling():
         for i in range(n_points):
             total=0.0;
             for k,v in points.items():
-                if k in system_boundaries:
+                if k in rxn_ids:
+                    total+=np.abs(v[i]);
+                elif k in system_boundaries:
                     if self.model.reactions.get_by_id(k).reactants and v[i] < 0:
                         # e.g. glc-D -->
                         total+=np.abs(v[i]);
